@@ -1,0 +1,35 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -RA -BIN -LHF -C -DL -SSA -O11111114 -fo72 -N"D:\Clicks_git\T\TouchPad_Click\SW\example\c\ARM\STM\Click_Touchpad_STM.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"D:\Clicks_git\T\TouchPad_Click\SW\example\c\ARM\STM\" -SP"D:\Clicks_git\T\TouchPad_Click\SW\library\HAL\" -SP"D:\Clicks_git\T\TouchPad_Click\SW\library\" -SP"D:\Clicks_git\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M3\" -IP"D:\Clicks_git\T\TouchPad_Click\SW\example\c\ARM\STM\" -IP"D:\Clicks_git\T\TouchPad_Click\SW\library\" -IP"D:\Clicks_git\T\TouchPad_Click\SW\library\HAL\" -IP"D:\Clicks_git\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" "Click_Touchpad_STM.c" "__touchpad_driver.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_12.emcl" "__Lib_UART_123_45.emcl" "easymx_v7_STM32F107VC.emcl" "Click_Touchpad.pld"	 
+warning: 0	1501	Specified search path does not exist: 'D:\Clicks_git\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses'	 
+warning: 0	1502	Specified include path does not exist: 'D:\Clicks_git\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses'	 
+diagnostics: 0	122	Compilation Started	STM32F107VC.c
+diagnostics: 38838	123	Compiled Successfully	STM32F107VC.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 814	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 349	123	Compiled Successfully	easymx_v7_STM32F107VC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 48	324	Undeclared identifier 'touchpad_i2cDriverInit' in expression	Click_Touchpad_STM.c
+error: 48	317	Operator '' is not applicable to these operands ''	Click_Touchpad_STM.c
+error: 48	324	Undeclared identifier '_TOUCHPAD_MTCH6102_I2C' in expression	Click_Touchpad_STM.c
+error: 48	402	; expected, but ')' found	Click_Touchpad_STM.c
+error: 48	424	'}' expected ';' found	Click_Touchpad_STM.c
+error: 55	324	Undeclared identifier 'touchpad_readRegister' in expression	Click_Touchpad_STM.c
+error: 56	324	Undeclared identifier '_TOUCHPAD_TOUCH_ONLY' in expression	Click_Touchpad_STM.c
+error: 59	324	Undeclared identifier 'touchpad_getPosition' in expression	Click_Touchpad_STM.c
+error: 69	324	Undeclared identifier '_TOUCHPAD_GESTURE' in expression	Click_Touchpad_STM.c
+error: 72	324	Undeclared identifier 'touchpad_readRegister' in expression	Click_Touchpad_STM.c
+error: 73	324	Undeclared identifier '_TOUCHPAD_NO_GESTURE_PRESENT' in expression	Click_Touchpad_STM.c
+error: 75	324	Undeclared identifier 'touchpad_writeGesture' in expression	Click_Touchpad_STM.c
+error: 79	312	Internal error ''	Click_Touchpad_STM.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 187	123	Compiled Successfully	__touchpad_driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__touchpad_driver.c
+hint: 84	1164	Variable 'tmp' has been eliminated by optimizer	__touchpad_driver.c
+hint: 101	1164	Variable 'ptr' has been eliminated by optimizer	__touchpad_driver.c
+hint: 109	1164	Variable 'ptr' has been eliminated by optimizer	__touchpad_driver.c
+error: 0	102	Finished (with errors): 29 avg 2018, 09:14:47	Click_Touchpad_STM.mcpar

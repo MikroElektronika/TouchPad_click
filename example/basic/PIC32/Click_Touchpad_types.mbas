@@ -1,0 +1,17 @@
+module Click_Touchpad_types
+
+typedef uint8_t                 as byte
+typedef int8_t                  as short
+typedef uint16_t                as word
+typedef int16_t                 as integer
+typedef uint32_t                as longword
+typedef int32_t                 as longint
+
+typedef T_TOUCHPAD_P       as ^const uint8_t
+
+structure T_touchpad_touchPoint
+	dim posX as uint16_t
+	dim posY as uint8_t
+end structure	
+
+end.

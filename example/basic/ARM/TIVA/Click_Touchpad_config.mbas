@@ -1,0 +1,8 @@
+module Click_Touchpad_config
+
+include Click_Touchpad_types
+
+const
+    _TOUCHPAD_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
